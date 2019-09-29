@@ -65,7 +65,7 @@ nav{
     height: 41px;
     text-transform: uppercase;
     text-align: center;
-    color:#987a08;     
+    color:#987a08;       
 }
 .navigation a:first-child{
     width: 173px;
@@ -112,6 +112,9 @@ nav{
     top: 50%;
     cursor: pointer;
 }
+.playerbutton:hover{
+    background-color: #f5c506;
+}
 .treangle{
     background: url("../images/Shape\ 8.svg") no-repeat;
     background-size: contain;
@@ -130,6 +133,7 @@ nav{
     padding: 0 28px;
     cursor: pointer;
 }
+
 .smallplaybtn{
     background: rgba(245, 197, 6, 0.27) url("../images/Shape\ 8.svg") no-repeat center center;
     width: 27px;
@@ -175,6 +179,10 @@ nav{
     left: 1293px;
     background-image: url("../images/Shape\ 1\ copy.svg");
 }
+.pointer:hover{
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5) inset;
+
+}
 .icon-area{
     display: block;
     width: 100%;
@@ -202,6 +210,7 @@ div.icon-area div{
     height: 212px;
     vertical-align: top;
     text-transform: uppercase;
+    cursor: pointer; 
 }
 .icon-area a:first-child{
     border-left: 1px solid #cecece;
@@ -209,6 +218,7 @@ div.icon-area div{
 .icon-area a img{
     display: block;
     margin: 0 auto;
+    cursor: pointer; 
 }
 .icon-area div a:first-child img{
     margin-top: 61px;
@@ -263,6 +273,7 @@ h3{
     width: 315px;
     height: 232px;
     vertical-align: top;
+    cursor: pointer; 
 }
 .right-block{
     background-color: #ec9e03;
@@ -274,6 +285,7 @@ h3{
     margin-left: 30px;
     display: inline-block;
     vertical-align: top;
+    cursor: pointer; 
 }
 .right-block::after{
     content: "22";
@@ -291,6 +303,7 @@ h3{
     text-align: center;
     padding-top: 23px;
     font-weight: bold;
+    cursor: pointer; 
 }
 .date span{
     color: #b56a26;
